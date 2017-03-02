@@ -1,0 +1,21 @@
+{
+  "name": "tool-bar-hachmeister",
+  "main": "./lib/tool-bar-hachmeister",
+  "version": "0.0.1",
+  "description": "My personal Atom tool bar",
+  "repository": "https://github.com/hachmeister/tool-bar-hachmeister",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "tool-bar"
+  ],
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  }
+}
