@@ -1,25 +1,48 @@
-.tool-bar.tool-bar-24px {
-  line-height: 38px;
+.tool-bar.tool-bar-24px, .tool-bar.tool-bar-32px {
   .tool-bar-btn {
     padding-left: 12px;
     padding-right: 12px;
     width: auto;
-    height: 40px;
   }
   .tool-bar-btn:before {
     display: inline-block;
-    line-height: 38px;
   }
   .tool-bar-btn:after {
     display: inline-block;
     margin-left: 10px;
-    font-size: 14px;
     font-family: sans-serif;
-    line-height: 40px;
     vertical-align: top;
     content: attr(data-original-title);
   }
 }
+
+.tool-bar.tool-bar-24px {
+  line-height: 38px;
+  .tool-bar-btn {
+    height: 38px;
+  }
+  .tool-bar-btn:before {
+    line-height: 38px;
+  }
+  .tool-bar-btn:after {
+    font-size: 14px;
+    line-height: 38px;
+  }
+}
 .tool-bar.tool-bar-24px.tool-bar-horizontal .tool-bar-spacer {
   height: 34px;
+}
+
+.tool-bar.tool-bar-32px {
+  line-height: 46px;
+  .tool-bar-btn {
+    height: 46px;
+  }
+  .tool-bar-btn:before {
+    line-height: 42px;
+  }
+  .tool-bar-btn:after {
+    font-size: 18px;
+    line-height: 46px;
+  }
 }
