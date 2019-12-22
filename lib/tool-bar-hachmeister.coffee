@@ -10,13 +10,13 @@ module.exports =
     @toolBar = toolBar 'tool-bar-hachmeister'
 
     @toolBar.addButton
-      icon: 'document'
+      icon: 'ios-document'
       callback: 'application:new-file'
       tooltip: 'Neu'
       iconset: 'ion'
 
     @toolBar.addButton
-      icon: 'folder'
+      icon: 'ios-folder-open'
       callback: 'application:open-file'
       tooltip: 'Öffnen'
       iconset: 'ion'
